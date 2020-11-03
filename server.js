@@ -49,4 +49,4 @@ app.get('/api/animals', (req, res) => {
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
-  const { animals } = require('./data/animals'); 
+  const { animals } = require('./data/animals');
